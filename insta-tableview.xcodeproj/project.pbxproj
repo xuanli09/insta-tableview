@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EB292A15ADE9F700D8EECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EB292915ADE9F700D8EECE /* UIKit.framework */; };
+		B3EB292C15ADE9F700D8EECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EB292B15ADE9F700D8EECE /* Foundation.framework */; };
+		B3EB292E15ADE9F700D8EECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EB292D15ADE9F700D8EECE /* CoreGraphics.framework */; };
+		B3EB293415ADE9F700D8EECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EB293215ADE9F700D8EECE /* InfoPlist.strings */; };
+		B3EB293615ADE9F700D8EECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB293515ADE9F700D8EECE /* main.m */; };
+		B3EB293A15ADE9F700D8EECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB293915ADE9F700D8EECE /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3EB292515ADE9F700D8EECE /* insta-tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "insta-tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EB292915ADE9F700D8EECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3EB292B15ADE9F700D8EECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3EB292D15ADE9F700D8EECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3EB293115ADE9F700D8EECE /* insta-tableview-Info.plist */ = {isa = PBXFileReference; path = "insta-tableview-Info.plist"; sourceTree = "<group>"; };
+		B3EB293315ADE9F700D8EECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EB293515ADE9F700D8EECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EB293715ADE9F700D8EECE /* insta-tableview-Prefix.pch */ = {isa = PBXFileReference; path = "insta-tableview-Prefix.pch"; sourceTree = "<group>"; };
+		B3EB293815ADE9F700D8EECE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3EB293915ADE9F700D8EECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EB292215ADE9F700D8EECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EB292A15ADE9F700D8EECE /* UIKit.framework in Frameworks */,
+				B3EB292C15ADE9F700D8EECE /* Foundation.framework in Frameworks */,
+				B3EB292E15ADE9F700D8EECE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3EB291A15ADE9F700D8EECE = {
+			isa = PBXGroup;
+			children = (
+				B3EB292F15ADE9F700D8EECE /* insta-tableview */,
+				B3EB292815ADE9F700D8EECE /* Frameworks */,
+				B3EB292615ADE9F700D8EECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EB292615ADE9F700D8EECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB292515ADE9F700D8EECE /* insta-tableview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EB292815ADE9F700D8EECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB292915ADE9F700D8EECE /* UIKit.framework */,
+				B3EB292B15ADE9F700D8EECE /* Foundation.framework */,
+				B3EB292D15ADE9F700D8EECE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3EB292F15ADE9F700D8EECE /* insta-tableview */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB293815ADE9F700D8EECE /* AppDelegate.h */,
+				B3EB293915ADE9F700D8EECE /* AppDelegate.m */,
+				B3EB293015ADE9F700D8EECE /* Supporting Files */,
+			);
+			path = "insta-tableview";
+			sourceTree = "<group>";
+		};
+		B3EB293015ADE9F700D8EECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB293115ADE9F700D8EECE /* insta-tableview-Info.plist */,
+				B3EB293215ADE9F700D8EECE /* InfoPlist.strings */,
+				B3EB293515ADE9F700D8EECE /* main.m */,
+				B3EB293715ADE9F700D8EECE /* insta-tableview-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EB292415ADE9F700D8EECE /* insta-tableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EB293D15ADE9F700D8EECE /* Build configuration list for PBXNativeTarget "insta-tableview" */;
+			buildPhases = (
+				B3EB292115ADE9F700D8EECE /* Sources */,
+				B3EB292215ADE9F700D8EECE /* Frameworks */,
+				B3EB292315ADE9F700D8EECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "insta-tableview";
+			productName = "insta-tableview";
+			productReference = B3EB292515ADE9F700D8EECE /* insta-tableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EB291C15ADE9F700D8EECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B3EB291F15ADE9F700D8EECE /* Build configuration list for PBXProject "insta-tableview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3EB291A15ADE9F700D8EECE;
+			productRefGroup = B3EB292615ADE9F700D8EECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EB292415ADE9F700D8EECE /* insta-tableview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3EB292315ADE9F700D8EECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EB293415ADE9F700D8EECE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EB292115ADE9F700D8EECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EB293615ADE9F700D8EECE /* main.m in Sources */,
+				B3EB293A15ADE9F700D8EECE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3EB293215ADE9F700D8EECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EB293315ADE9F700D8EECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3EB293B15ADE9F700D8EECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3EB293C15ADE9F700D8EECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3EB293E15ADE9F700D8EECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "insta-tableview/insta-tableview-Prefix.pch";
+				INFOPLIST_FILE = "insta-tableview/insta-tableview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3EB293F15ADE9F700D8EECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "insta-tableview/insta-tableview-Prefix.pch";
+				INFOPLIST_FILE = "insta-tableview/insta-tableview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EB291F15ADE9F700D8EECE /* Build configuration list for PBXProject "insta-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EB293B15ADE9F700D8EECE /* Debug */,
+				B3EB293C15ADE9F700D8EECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EB293D15ADE9F700D8EECE /* Build configuration list for PBXNativeTarget "insta-tableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EB293E15ADE9F700D8EECE /* Debug */,
+				B3EB293F15ADE9F700D8EECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EB291C15ADE9F700D8EECE /* Project object */;
+}
