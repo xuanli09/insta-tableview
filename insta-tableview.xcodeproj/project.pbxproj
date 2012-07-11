@@ -20,11 +20,11 @@
 		B3EB292915ADE9F700D8EECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3EB292B15ADE9F700D8EECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3EB292D15ADE9F700D8EECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B3EB293115ADE9F700D8EECE /* insta-tableview-Info.plist */ = {isa = PBXFileReference; path = "insta-tableview-Info.plist"; sourceTree = "<group>"; };
+		B3EB293115ADE9F700D8EECE /* insta-tableview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "insta-tableview-Info.plist"; sourceTree = "<group>"; };
 		B3EB293315ADE9F700D8EECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3EB293515ADE9F700D8EECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3EB293715ADE9F700D8EECE /* insta-tableview-Prefix.pch */ = {isa = PBXFileReference; path = "insta-tableview-Prefix.pch"; sourceTree = "<group>"; };
-		B3EB293815ADE9F700D8EECE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3EB293715ADE9F700D8EECE /* insta-tableview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "insta-tableview-Prefix.pch"; sourceTree = "<group>"; };
+		B3EB293815ADE9F700D8EECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3EB293915ADE9F700D8EECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
