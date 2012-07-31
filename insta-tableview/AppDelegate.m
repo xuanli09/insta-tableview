@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,20 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];	
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    //Set regular and back button to use a background image
+    UIImage *regularBtn = [[UIImage imageNamed:@"segment-unselected.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 5)];
+    [[UIBarButtonItem appearance] setBackgroundImage:regularBtn forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    UIImage *backButton = [[UIImage imageNamed:@"arrow-back"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 10, 0, 5)];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButton forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    RootViewController *root = [[RootViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:root];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
