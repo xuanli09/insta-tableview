@@ -159,6 +159,7 @@
 		B376AF8115C89E0D00BA3CA1 /* TableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B376AF6215C89E0D00BA3CA1 /* TableFooterView.m */; };
 		B376AF8215C89E0D00BA3CA1 /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B376AF6415C89E0D00BA3CA1 /* TableHeaderView.m */; };
 		B376AF8315C89E0D00BA3CA1 /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B376AF6615C89E0D00BA3CA1 /* TitleView.m */; };
+		B376AF8915C8A21800BA3CA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B376AF8815C8A21800BA3CA1 /* README.md */; };
 		B3EB292A15ADE9F700D8EECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EB292915ADE9F700D8EECE /* UIKit.framework */; };
 		B3EB292C15ADE9F700D8EECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EB292B15ADE9F700D8EECE /* Foundation.framework */; };
 		B3EB292E15ADE9F700D8EECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EB292D15ADE9F700D8EECE /* CoreGraphics.framework */; };
@@ -348,6 +349,7 @@
 		B376AF6415C89E0D00BA3CA1 /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
 		B376AF6515C89E0D00BA3CA1 /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
 		B376AF6615C89E0D00BA3CA1 /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		B376AF8815C8A21800BA3CA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B3EB292515ADE9F700D8EECE /* insta-tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "insta-tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EB292915ADE9F700D8EECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3EB292B15ADE9F700D8EECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -658,6 +660,7 @@
 		B3EB291A15ADE9F700D8EECE = {
 			isa = PBXGroup;
 			children = (
+				B376AF8815C8A21800BA3CA1 /* README.md */,
 				B3EB292F15ADE9F700D8EECE /* insta-tableview */,
 				B3EB292815ADE9F700D8EECE /* Frameworks */,
 				B3EB292615ADE9F700D8EECE /* Products */,
@@ -878,6 +881,7 @@
 				B376AEC415C7657500BA3CA1 /* Navigation_bar_divide_right.png in Resources */,
 				B376AEC615C7659000BA3CA1 /* Navigation_bar_divide_left.png in Resources */,
 				B376AF7215C89E0D00BA3CA1 /* RootViewController.xib in Resources */,
+				B376AF8915C8A21800BA3CA1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
