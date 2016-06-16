@@ -31,7 +31,7 @@
         [more setBackgroundImage:buttonImage forState:UIControlStateDisabled];
         [more setBackgroundImage:buttonImageHighlight forState:UIControlStateHighlighted];
         
-        more.titleLabel.Font = [UIFont fontWithName:@"Helvetica-Bold" size:14];
+        more.titleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:14];
         
         [more setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [more setTitleColor:[UIColor grayColor] forState:UIControlStateDisabled];
