@@ -19,7 +19,7 @@
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:[datetime intValue]];    
     NSDate *today = [NSDate date];
 
-    NSInteger seconds = fabs([today secondsAfterDate:date]);
+    NSInteger seconds = abs([today secondsAfterDate:date]);
     NSInteger minutes = [today minutesAfterDate:date];
     NSInteger hours = [today hoursAfterDate:date];
     NSInteger days = [today daysAfterDate:date];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0914A0991D125AEF00B95D6F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0914A0981D125AEF00B95D6F /* Default-568h@2x.png */; };
 		B376ADE115C714C100BA3CA1 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B376ADB915C714C100BA3CA1 /* apple.jpg */; };
 		B376ADE215C714C100BA3CA1 /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B376ADBB15C714C100BA3CA1 /* blackButton.png */; };
 		B376ADE315C714C100BA3CA1 /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B376ADBC15C714C100BA3CA1 /* blackButton@2x.png */; };
@@ -168,6 +169,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0914A0981D125AEF00B95D6F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B376ADB915C714C100BA3CA1 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
 		B376ADBB15C714C100BA3CA1 /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
 		B376ADBC15C714C100BA3CA1 /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
@@ -660,6 +662,7 @@
 		B3EB291A15ADE9F700D8EECE = {
 			isa = PBXGroup;
 			children = (
+				0914A0981D125AEF00B95D6F /* Default-568h@2x.png */,
 				B376AF8815C8A21800BA3CA1 /* README.md */,
 				B3EB292F15ADE9F700D8EECE /* insta-tableview */,
 				B3EB292815ADE9F700D8EECE /* Frameworks */,
@@ -732,7 +735,7 @@
 		B3EB291C15ADE9F700D8EECE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = B3EB291F15ADE9F700D8EECE /* Build configuration list for PBXProject "insta-tableview" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -783,6 +786,7 @@
 				B376ADF815C714C100BA3CA1 /* tanButton@2x.png in Resources */,
 				B376ADF915C714C100BA3CA1 /* tanButtonHighlight.png in Resources */,
 				B376ADFA15C714C100BA3CA1 /* tanButtonHighlight@2x.png in Resources */,
+				0914A0991D125AEF00B95D6F /* Default-568h@2x.png in Resources */,
 				B376ADFB15C714C100BA3CA1 /* whiteButton.png in Resources */,
 				B376ADFC15C714C100BA3CA1 /* whiteButton@2x.png in Resources */,
 				B376ADFD15C714C100BA3CA1 /* whiteButtonHighlight.png in Resources */,
@@ -942,12 +946,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -955,10 +968,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -967,14 +984,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -989,6 +1017,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "insta-tableview/insta-tableview-Prefix.pch";
 				INFOPLIST_FILE = "insta-tableview/insta-tableview-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.xuan.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1000,6 +1029,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "insta-tableview/insta-tableview-Prefix.pch";
 				INFOPLIST_FILE = "insta-tableview/insta-tableview-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.xuan.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
